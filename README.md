@@ -26,7 +26,7 @@
 - [x] Section 2: Configuração do Ambiente  
 - [x] Section 3: Iniciando com Programação  
 - [x] Section 4: Javascript: Fundamentos  
-- [ ] Section 5: Javascript: Estruturas de Controle  
+- [x] Section 5: Javascript: Estruturas de Controle  
 - [ ] Section 6: Javascript: Função  
 - [ ] Section 7: Javascript: Objeto  
 - [ ] Section 8: Javascript: Array  
