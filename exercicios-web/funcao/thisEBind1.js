@@ -1,8 +1,8 @@
 const pessoa = {
-    saudacao: 'Bom dia!',
-    falar() {
-        console.log(this.saudacao)
-    }
+  saudacao: 'Bom dia!',
+  falar() {
+    console.log(this.saudacao)
+  }
 }
 
 pessoa.falar()

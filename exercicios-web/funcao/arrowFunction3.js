@@ -1,5 +1,5 @@
-let comparaComThis = function (param) {
-    console.log(this === param)
+ let comparaComThis = function (param) {
+  console.log(this === param)
 }
 // Funçao tradicional:
 //  objeto global no broswer: window
@@ -10,7 +10,6 @@ const obj = {}
 comparaComThis = comparaComThis.bind(obj)
 comparaComThis(global)
 comparaComThis(obj)
-
 
 
 // Agora usando arrow function ----------------------------------
