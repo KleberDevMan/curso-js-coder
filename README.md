@@ -27,7 +27,7 @@
 - [x] Section 3: Iniciando com Programação  
 - [x] Section 4: Javascript: Fundamentos  
 - [x] Section 5: Javascript: Estruturas de Controle  
-- [ ] Section 6: Javascript: Função  
+- [wip] Section 6: Javascript: Função  
 - [ ] Section 7: Javascript: Objeto  
 - [ ] Section 8: Javascript: Array  
 - [ ] Section 9: Lista de Exercícios de JavaScript  
