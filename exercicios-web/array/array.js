@@ -18,6 +18,7 @@ console.log(aprovados.length)
 console.log(aprovados[8] === undefined)
 
 console.log(aprovados)
+
 aprovados.sort()
 console.log(aprovados)
 
