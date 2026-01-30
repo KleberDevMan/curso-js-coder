@@ -6,9 +6,7 @@ const alunos = [
 ]
 
 // Desafio 1: Todos os alunos são bolsista?
-const todosBolsistas = (resultado, bolsista) => resultado && bolsista
-console.log(alunos.map(a => a.bolsista).reduce(todosBolsistas))
+console.log(alunos.map(o => o.bolsista).reduce((acumulador, bolsista) => acumulador && bolsista))
 
 // Desafio 2: Algum aluno é bolsista?
-const algumBolsista = (resultado, bolsista) => resultado || bolsista
-console.log(alunos.map(a => a.bolsista).reduce(algumBolsista))
+console.log(alunos.map(o => o.bolsista).reduce((acumulador, bolsista) => acumulador || bolsista))
