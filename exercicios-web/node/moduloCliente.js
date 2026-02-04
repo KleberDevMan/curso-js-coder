@@ -1,3 +1,4 @@
+// moduloA.js ou moduloA, tanto faz
 const moduloA = require('./moduloA')
 const moduloB = require('./moduloB')
 

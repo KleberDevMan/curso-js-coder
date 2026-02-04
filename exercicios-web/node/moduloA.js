@@ -1,5 +1,5 @@
 console.log(this)
 
-this.ola = 'Fala Pessoal'
-exports.bemVindo = 'Bem vindo ao node!'
-module.exports.ateLogo = 'Até próximo exemplo'
+this.ola = 'Olá'
+exports.bemVindo = 'Bem vindo!'
+module.exports.ateLogo = 'Até logo'
