@@ -1,6 +1,8 @@
+// singleton
 const contadorA = require('./instanciaUnica')
 const contadorB = require('./instanciaUnica')
 
+// factory
 const contadorC = require('./instanciaNova')()
 const contadorD = require('./instanciaNova')()
 
