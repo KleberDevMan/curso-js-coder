@@ -1,0 +1,2 @@
+# run javascript code in vscode
+Instalar extensão code runner > shortcut Ctrl+Alt+N

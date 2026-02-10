@@ -9,6 +9,8 @@ function logThis() {
     console.log(this === exports)
     console.log(this === module.exports)
     console.log(this === global)
+
+    this.perigo = '...' // não é uma boa prática, pois pode causar conflito com outras variáveis.
 }
 
 logThis()
