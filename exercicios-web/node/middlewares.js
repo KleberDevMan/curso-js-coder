@@ -11,6 +11,9 @@ const passo2 = (ctx, next) => {
 
 const passo3 = ctx => ctx.valor3 = 'mid3'
 
+// O "loop" ocorre recursivamente dentro da função execPasso. Cada middleware chama next(), 
+// que é na verdade () => execPasso(indice + 1), avançando para o próximo middleware. 
+// Assim, a iteração é feita por recursão, não por um laço explícito.
 const exec = (ctx, ...middlewares) => {
     const execPasso = indice => {
         middlewares && indice < middlewares.length &&
