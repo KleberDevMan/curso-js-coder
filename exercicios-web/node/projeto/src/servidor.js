@@ -8,8 +8,8 @@ const bancoDeDados = require('./bancoDeDados')
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/produtos', (req, res, next) => {
-    res.send({nome: 'Notebook', preco: 13.3})
-    // res.send(bancoDeDados.getProdutos())
+    // res.send({nome: 'Notebook', preco: 13.3})
+    res.send(bancoDeDados.getProdutos())
 })
 
 app.get('/produtos/:id', (req, res, next) => {
