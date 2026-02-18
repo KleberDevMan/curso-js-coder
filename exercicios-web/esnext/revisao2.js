@@ -1,4 +1,4 @@
-// Arrow Function
+// Arrow Function - Especificação do ES2015
 const soma = (a, b) => a + b
 console.log(soma(2, 3))
 
@@ -13,6 +13,7 @@ function log(texto = 'Node') {
     console.log(texto)
 }
 
+log(undefined)
 log()
 log('Sou mais forte')
 

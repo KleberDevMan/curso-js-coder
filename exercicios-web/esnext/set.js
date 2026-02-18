@@ -1,4 +1,5 @@
 // não aceita repetição/não indexada
+// vantagem: mais performatico para verificar se um elemento existe ou nao
 const times = new Set()
 times.add('Vasco')
 times.add('São Paulo').add('Palmeiras').add('Corinthians')

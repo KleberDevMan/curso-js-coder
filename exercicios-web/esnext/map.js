@@ -1,3 +1,6 @@
+// Map - estrutura de dados chave/valor
+// difere do objeto por não ter chaves de string
+// eh uma estrutura indexada
 const tecnologias = new Map()
 tecnologias.set('react', { framework: false })
 tecnologias.set('angular', { framework: true })

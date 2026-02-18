@@ -5,6 +5,7 @@
     console.log(b)
 }
 console.log(a)
+// console.log(b) // ReferenceError: b is not defined
 
 // Template String
 const produto = 'iPad'

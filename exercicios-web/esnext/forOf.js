@@ -1,3 +1,4 @@
+// for Of é bom, mas prefira: map, filter, reduce
 for (let letra of "Cod3r") {
     console.log(letra)
 }
@@ -8,6 +9,7 @@ for (let i in assuntosEcma) {
     console.log(i)
 }
 
+// diferente do for in, for of itera sobre os valores do array
 for (let assunto of assuntosEcma) {
     console.log(assunto)
 }

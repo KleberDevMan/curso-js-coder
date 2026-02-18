@@ -5,6 +5,7 @@ function tag(partes, ...valores) {
     return 'Outra string'
 }
 
+// Template String
 const aluno = 'Gui'
 const situacao = 'Aprovado'
 console.log(tag `${aluno} está ${situacao}.`)

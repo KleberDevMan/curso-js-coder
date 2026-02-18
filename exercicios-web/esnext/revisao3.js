@@ -22,4 +22,5 @@ class Cachorro extends Animal {
     }
 }
 
+// Melhorias na Notação Literal
 console.log(new Cachorro().falar())
