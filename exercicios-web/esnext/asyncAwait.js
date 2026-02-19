@@ -31,6 +31,28 @@ let obterAlunos = async () => {
     return [].concat(ta, tb, tc)
 } // retorna um objeto AsyncFunction
 
-obterAlunos()
-    .then(alunos => alunos.map(a => a.nome))
-    .then(nomes => console.log(nomes))
+// IIFE - Immediately Invoked Function Expression
+// para executar a função imediatamente
+// (async () => {
+//     const alunos = await obterAlunos()
+//     const nomes = alunos.map(a => a.nome)
+//     console.log(nomes)
+
+//     getTurma('D').catch(e => console.log(e.message))
+// })()
+
+// ou o inverso
+(async () => {
+    try {
+        resultado = await getTurma('D')
+        console.log(resultado)
+    } catch (e) {
+        console.log(e.message)
+    } finally {
+        console.log('Fim getTurma !')
+    }
+
+    const alunos = await obterAlunos()
+    const nomes = alunos.map(a => a.nome)
+    console.log(nomes)
+})()

@@ -7,7 +7,9 @@ const getTurma = letra => {
         http.get(url, res => {
             let resultado = ''
     
+            // os dados vão chegando em partes, então vamos concatenar
             res.on('data', dados => {
+                // console.log(dados.toString())
                 resultado += dados
             })
     
