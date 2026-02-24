@@ -2,7 +2,7 @@ const primeiroElemento = arrayOuString => arrayOuString[0]
 const letraMinuscula = letra => letra.toLowerCase()
 
 new Promise((resolve, reject) => {
-    resolve(['Ana', 'Raissa', 'Jessica'])
+    resolve(['Letícia', 'Raissa', 'Jessica'])
 })
     .then(primeiroElemento)
     .then(primeiroElemento)
