@@ -31,10 +31,10 @@
 - [x] Section 7: Javascript: Objeto  
 - [x] Section 8: Javascript: Array  
 - [x] Section 9: Lista de Exercícios de JavaScript  
-- [...] Section 10: Node  
-- [ ] Section 11: ESNext  
-- [ ] Section 12: Conceitos sobre Web  
-- [ ] Section 13: HTML  
+- [x] Section 10: Node  
+- [x] Section 11: ESNext  
+- [x] Section 12: Conceitos sobre Web  
+- [x] Section 13: HTML  
 - [ ] Section 14: CSS  
 - [ ] Section 15: Integrando HTML, CSS e JS  
 - [ ] Section 16: Ajax  
