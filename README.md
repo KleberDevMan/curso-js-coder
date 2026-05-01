@@ -35,8 +35,8 @@
 - [x] Section 11: ESNext  
 - [x] Section 12: Conceitos sobre Web  
 - [x] Section 13: HTML  
-- [ ] Section 14: CSS  
-- [ ] Section 15: Integrando HTML, CSS e JS  
+- [x] Section 14: CSS  
+- [x] Section 15: Integrando HTML, CSS e JS  
 - [ ] Section 16: Ajax  
 - [ ] Section 17: Gulp  
 - [ ] Section 18: Webpack  
