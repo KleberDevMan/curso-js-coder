@@ -2,9 +2,9 @@ const bodyParser = require('body-parser')
 const express = require('express')
 const app = express()
 
-app.use(express.static('.'))
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
+app.use(express.static('.')) // serve arquivos estáticos
+app.use(bodyParser.urlencoded({ extended: true })) // parsea o corpo da requisição
+app.use(bodyParser.json()) // parsea o corpo da requisição como JSON
 
 const multer = require('multer')
 
@@ -46,4 +46,6 @@ app.get('/parOuImpar', (req, res) => {
     })
 })
 
-app.listen(8080, () => console.log('Executando...'))
+app.get('/teste', (req, res) => {res.send('Ok')})
+
+app.listen(8082, () => console.log('Executando...'))
