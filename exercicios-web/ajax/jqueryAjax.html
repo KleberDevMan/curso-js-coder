@@ -19,6 +19,7 @@
             document.getElementById(id).innerHTML = texto
         }
 
+        // jquery ajax fazendo get
         $.ajax({
             url: 'parOuImpar',
             data: {
@@ -29,6 +30,7 @@
             }
         })
 
+        // jquery ajax fazendo post
         $.ajax({
             url: 'formulario',
             method: 'post',

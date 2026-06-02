@@ -12,6 +12,7 @@
     <h1>Estados</h1>
 
     <script>
+        // normalmente usado no react
         const url = 'dados/estados.json'
         axios(url).then(resp => {
             const itens = resp.data.reduce(
