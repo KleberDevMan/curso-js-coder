@@ -37,7 +37,7 @@
 - [x] Section 13: HTML  
 - [x] Section 14: CSS  
 - [x] Section 15: Integrando HTML, CSS e JS  
-- [ ] Section 16: Ajax  
+- [x] Section 16: Ajax  
 - [ ] Section 17: Gulp  
 - [ ] Section 18: Webpack  
 - [ ] Section 19: jQuery  
