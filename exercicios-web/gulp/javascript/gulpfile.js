@@ -1,8 +1,8 @@
 const { series } = require('gulp')
 const gulp = require('gulp')
-const concat = require('gulp-concat')
-const uglify = require('gulp-uglify')
-const babel = require('gulp-babel')
+const concat = require('gulp-concat') // junta varios arquivos em um so
+const uglify = require('gulp-uglify') // minifica o codigo
+const babel = require('gulp-babel') // transforma o codigo para um formato mais compativel com o navegador
 
 function transformacaoJS(cb) {
     return gulp.src('src/**/*.js')
