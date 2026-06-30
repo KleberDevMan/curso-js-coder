@@ -4,24 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "cross-env NODE_ENV=production webpack"
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server",
+    "build": "cross-env NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack-dev-server": "3.1.4",
-    "file-loader": "1.1.11",
     "cross-env": "5.1.5",
-    "optimize-css-assets-webpack-plugin": "4.0.1",
-    "uglifyjs-webpack-plugin": "1.2.5",
-    "node-sass": "4.9.0",
-    "sass-loader": "7.0.1",
-    "mini-css-extract-plugin": "0.4.0",
     "css-loader": "0.28.11",
+    "file-loader": "1.1.11",
+    "mini-css-extract-plugin": "0.4.0",
+    "optimize-css-assets-webpack-plugin": "4.0.1",
+    "sass": "1.32.13",
+    "sass-loader": "10.4.1",
     "style-loader": "0.21.0",
-    "webpack": "4.8.1",
-    "webpack-cli": "6.0.1"
+    "terser-webpack-plugin": "^4.2.3",
+    "uglifyjs-webpack-plugin": "1.2.5",
+    "webpack": "4.46.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.3"
   }
 }

@@ -39,7 +39,7 @@
 - [x] Section 15: Integrando HTML, CSS e JS  
 - [x] Section 16: Ajax  
 - [x] Section 17: Gulp  
-- [ ] Section 18: Webpack  
+- [x] Section 18: Webpack  
 - [ ] Section 19: jQuery  
 - [ ] Section 20: Bootstrap  
 - [ ] Section 21: Projeto Galeria (Bootstrap/jQuery/Webpack)  
