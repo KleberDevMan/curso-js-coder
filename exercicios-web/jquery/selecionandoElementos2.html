@@ -101,6 +101,7 @@
         const elementoDOM = document.getElementsByClassName('menu')
         $(elementoDOM).css(comBorda)
 
+        // Iterando sobre os elementos
         $('main').children().each((i, e) => $(e).css(comBorda).css(semBorda))
         $('li').each((i, e) => {
             $(e).css(comBorda)
