@@ -41,6 +41,7 @@
 
         const backgroundOriginal = $('body').css('background-color')
 
+        // evento keyup é o evento que é disparado quando o user digita algo no input
         $('input').keyup(function (e) {
             const valor = $(this).val()
             if (valor.match(/#[\da-fA-F]{6}/)

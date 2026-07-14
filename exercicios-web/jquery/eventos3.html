@@ -46,12 +46,12 @@
             div2.append(`<br>clientX: ${e.clientX}`)
             div2.append(`<br>clientY: ${e.clientY}`)
 
-            const obs = e.data ? e.data.obs : null
-            div2.append(`<br>obs: ${obs}`)
+            const test = e.data ? e.data.test : null
+            div2.append(`<br>test: ${test}`)
         }
 
         $('#div1, #div2').on('mouseenter mouseleave', 
-            { obs: 'Funciona!' }, exibirDadosEvento)
+            { obs: 'Funciona!', test: 'test' }, exibirDadosEvento)
         $('input').keyup(exibirDadosEvento)
     </script>
 </body>
