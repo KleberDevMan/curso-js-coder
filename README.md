@@ -40,7 +40,7 @@
 - [x] Section 16: Ajax  
 - [x] Section 17: Gulp  
 - [x] Section 18: Webpack  
-- [ ] Section 19: jQuery  
+- [x] Section 19: jQuery  
 - [ ] Section 20: Bootstrap  
 - [ ] Section 21: Projeto Galeria (Bootstrap/jQuery/Webpack)  
 - [ ] Section 22: React  
