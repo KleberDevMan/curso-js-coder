@@ -30,6 +30,7 @@
                 const conteudo = $(this).html()
                 const expressoesComChaves = conteudo.match(/\{\{.+\}\}/g)
                 const expressoes = expressoesComChaves.map(retirarChaves)
+                // eval é uma função que executa o código JavaScript passado como argumento
                 const resultados = expressoes.map(e => eval(e))
 
                 let conteudoFinal = conteudo

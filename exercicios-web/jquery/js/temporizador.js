@@ -5,12 +5,16 @@
             horario: '23:59:59'
         }, opcoes)
 
-        const horaDezena = $('<span class="digito">').html('0')
-        const horaUnidade = $('<span class="digito">').html('0')
-        const minutoDezena = $('<span class="digito">').html('0')
-        const minutoUnidade = $('<span class="digito">').html('0')
-        const segundoDezena = $('<span class="digito">').html('0')
-        const segundoUnidade = $('<span class="digito">').html('0')
+        function criarDigito() {
+            return $('<span class="digito">').html('0')
+        }
+
+        const horaDezena = criarDigito()
+        const horaUnidade = criarDigito()
+        const minutoDezena = criarDigito()
+        const minutoUnidade = criarDigito()
+        const segundoDezena = criarDigito()
+        const segundoUnidade = criarDigito()
 
         const separadorHora = $('<span class="separador">').html(':')
         const separadorMinuto = $('<span class="separador">').html(':')
