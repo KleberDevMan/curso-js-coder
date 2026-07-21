@@ -61,3 +61,7 @@
 - [ ] Section 37: Publicando uma Aplicação VueJS na Amazon  
 - [ ] Section 38: Conclusão Curso Desenvolvimento Web  
 - [ ] Section 39: Gulp - Versão 3 [LEGADO]  
+
+annotations
+
+- prefira usar flex box do que grid ou float
