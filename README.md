@@ -41,8 +41,8 @@
 - [x] Section 17: Gulp  
 - [x] Section 18: Webpack  
 - [x] Section 19: jQuery  
-- [ ] Section 20: Bootstrap  
-- [ ] Section 21: Projeto Galeria (Bootstrap/jQuery/Webpack)  
+- [x] Section 20: Bootstrap  
+- [x] Section 21: Projeto Galeria (Bootstrap/jQuery/Webpack)  
 - [ ] Section 22: React  
 - [ ] Section 23: Projeto Calculadora  
 - [ ] Section 24: Projeto Cadastro de Usuário  
