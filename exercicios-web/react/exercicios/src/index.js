@@ -6,6 +6,7 @@ import Filho from './componentes/Filho'
 
 ReactDOM.render(
     <div>
+        {/* nested component */}
         <Pai nome="Paulo" sobrenome="Silva">
             <Filho nome="Pedro" />
             <Filho nome="Paulo" />
