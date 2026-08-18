@@ -2,7 +2,7 @@ import './Nav.css'
 import React from 'react'
 import NavItem from './NavItem'
 
-export default props =>
+export default () =>
     <aside className="menu-area">
         <nav className="menu">
             <NavItem to="/" icon="fa fa-home" label="Início" />
