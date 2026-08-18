@@ -64,4 +64,5 @@
 
 annotations
 
-- prefira usar flex box do que grid ou float
+- [css] prefira usar flex box do que grid ou float
+- [react] componente funcional (sem estado) e menos componente de classe (extends Component; com estado)
