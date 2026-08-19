@@ -45,7 +45,7 @@
 - [x] Section 21: Projeto Galeria (Bootstrap/jQuery/Webpack)  
 - [x] Section 22: React  
 - [x] Section 23: Projeto Calculadora  
-- [ ] Section 24: Projeto Cadastro de Usuário  
+- [x] Section 24: Projeto Cadastro de Usuário  
 - [ ] Section 25: Projeto Cadastro - Integração com Banco de dados   
 - [ ] Section 26: VueJS  
 - [ ] Section 27: Projetos VueJS  
