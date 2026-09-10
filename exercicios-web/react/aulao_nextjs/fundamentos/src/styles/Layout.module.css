@@ -1,0 +1,24 @@
+.cabecalho {
+    background-color: black;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cabecalho a {
+    font-size: 22px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape a {
+    color: cadetblue;
+    text-decoration: underline;
+}

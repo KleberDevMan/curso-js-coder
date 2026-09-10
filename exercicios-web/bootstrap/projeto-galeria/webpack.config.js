@@ -7,7 +7,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     mode: modoDev ? 'development' : 'production',
-    entry: './src/index.js',
+    entry: './src/index.jsx',
     devServer: {
         contentBase: './build',
         port: 9000,
