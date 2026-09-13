@@ -18,7 +18,8 @@ export default function Home() {
         <Navegador href="/estiloso" title="Estiloso" color="blue" />
         <Navegador href="/about" title="Sobre" color="red" />
         <Navegador href="/navegacao/" title="Navegacao #01" color="green" />
-        <Navegador href="/cliente/123" title="Navegacao #02" color="purple" />
+        <Navegador href="/cliente/sp/123" title="Navegacao #02" color="purple" />
+        <Navegador href="/estado" title="Estado" color="orange" />
       </main>
 
       <footer className={styles.footer}>
