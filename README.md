@@ -65,4 +65,11 @@
 annotations
 
 - [css] prefira usar flex box do que grid ou float
-- [react] componente funcional (sem estado) e menos componente de classe (extends Component; com estado)
+- [react] aulao de nextjs
+  - para rodar aplicação ``npm run dev``
+  - css pode ser global ou modular (css modules)
+  - navegação:
+    - Simples: link segue a estrutura de pastas do projeto
+  - tipos de componentes:
+    - Prefira: componente funcional (sem estado) 
+    - Evite: componente de classe (extends Component; com estado)
