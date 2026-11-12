@@ -68,8 +68,13 @@ annotations
 - [react] aulao de nextjs
   - para rodar aplicação ``npm run dev``
   - css pode ser global ou modular (css modules)
-  - navegação:
+  - tipos de navegação:
     - Simples: link segue a estrutura de pastas do projeto
   - tipos de componentes:
     - Prefira: componente funcional (sem estado) 
     - Evite: componente de classe (extends Component; com estado)
+  - tipos de renderizacao (o proprio nextjs faz a escolha de qual modelo usar, mas podemos forçar um modelo):
+    - SSR (Server Side Rendering) - renderiza no servidor e envia para o cliente (bate no banco de dados, renderiza e envia para o cliente. Como o Rails faz)
+    - CSR (Client Side Rendering) - renderiza no cliente (SPA - Single Page Application. Ou seja, unica pagina html, onde o JS q fica controlando o que aparece ou nao na tela)
+    - SSG (Static Site Generation) - no build da aplicação o proprio framework cria as páginas estaticamente. Quando o client pede, o servidor só devolve o conteúdo estático. Não bate no banco. Mais velocidade (ex: blog)
+  - 
